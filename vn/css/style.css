@@ -244,7 +244,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('../images/Banner.jpg') center/cover no-repeat; background-position: center 82%;
+    background: url('../images/Banner.webp') center/cover no-repeat; background-position: center 82%;
 }
 
 .hero::after {
@@ -719,14 +719,14 @@ main {
     overflow: hidden;
     border-radius: 28px;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    background: linear-gradient(145deg, rgba(255,255,255,0.02), rgba(0,0,0,0.15));
+    background: none;
 }
 
 .image-card::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.45));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.25));
     opacity: 1;
     z-index: 1;
     pointer-events: none;
